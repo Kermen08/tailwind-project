@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+@theme {
+    --font-bold:"HelveticaBold",sans-serif;
+    --font-regular:"HelveticaRegular",sans-serif;
+    --logo-color:#415BE7;
+    --menu-circle-color:#DBDDE3;
+    --main-bg-color:#F9F9FB;
+    --menu-bg-color:#415be70f;
+    --input-text-color:#808ea1;
+    --price-color:#525252;
+
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("./fonts/HelveticaNeue-Bold.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("./fonts/HelveticaNeue-Roman.otf");
+    font-weight: 400;
+}
+@layer utilities {
+    .number {
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
+
+
+
