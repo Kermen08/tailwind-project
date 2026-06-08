@@ -8,44 +8,43 @@
 <body>
 <header>
     <div class="py-5 px-3 flex flex-col  md:flex-row  md:justify-between md:items-center lg:mx-auto 2xl:w-7xl">
-
-            <div class="mb-3 font-bold text-4xl text-(--logo-color) md:mb-0">
+        <div class="mb-3 font-bold text-4xl text-(--logo-color) md:mb-0 2xl:ml-20">
                 FURNITURE
             </div>
             <nav>
-                <ul class="flex flex-row justify-between items-center md:w-100">
+                <ul class="flex flex-row  items-center justify-start  md:w-100">
                     <li class=" group flex flex-row items-center cursor-pointer transition-all duration-500">
-                        <div class="w-8 h-8 mr-2 flex justify-center items-center  border border-solid rounded-full border-(--menu-circle-color) bg-(--menu-bg-color) group-hover:bg-blue-600 group-hover:outline-0">
+                        <div class="w-8 h-8  mr-1 flex justify-center items-center  border border-solid rounded-full border-(--menu-circle-color) bg-(--menu-bg-color) sm:w-9 sm:h-9 group-hover:bg-blue-600 group-hover:outline-0 group-hover:border-transparent ">
                             <svg class="group-hover:hidden" width="20" height="20" viewBox="0 0 20 20" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16.6666 5L7.49998 14.1667L3.33331 10" stroke="#415BE7" stroke-width="2"
                                       stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            <span class="hidden number group-hover:block">1</span>
+                            <span class="hidden text-white text-sm font-bold group-hover:block">1</span>
                         </div>
                         <a href="#" class="font-regular text-base text-black">Cart</a>
                     </li>
                     <li>
-                        <div class=" flex items-center w-2 h-[1px] border border-solid border-(--menu-circle-color) md:w-12"></div>
+                        <div class=" flex items-center mx-1 w-2 h-[1px] border border-solid border-(--menu-circle-color) sm:w-12"></div>
                     </li>
                     <li class="group flex flex-row items-center cursor-pointer"
                         id="review-circle transition-all duration-500">
-                        <div class="w-8 h-8 mr-2 flex justify-center items-center  border border-solid rounded-full border-(--menu-circle-color) bg-(--menu-bg-color) group-hover:bg-blue-600 group-hover:outline-0">
+                        <div class="w-8 h-8  mr-1 flex justify-center items-center  border border-solid rounded-full border-(--menu-circle-color) bg-(--menu-bg-color) sm:w-9 sm:h-9 group-hover:bg-blue-600 group-hover:outline-0 group-hover:border-transparent">
                             <svg class="group-hover:hidden" width="20" height="20" viewBox="0 0 20 20" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16.6666 5L7.49998 14.1667L3.33331 10" stroke="#415BE7" stroke-width="2"
                                       stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            <span class="hidden number group-hover:block">2</span>
+                            <span class="hidden text-white text-sm font-bold group-hover:block">2</span>
                         </div>
                         <a href="#" class="font-regular text-base text-black">Review</a>
                     </li>
                     <li>
-                        <div class=" flex items-center w-2 h-[1px] border border-solid border-(--menu-circle-color) md:w-12"></div>
+                        <div class=" flex items-center mx-1 w-2 h-[1px] border border-solid border-(--menu-circle-color) sm:w-12"></div>
                     </li>
                     <li class="flex flex-row items-center cursor-pointer">
-                        <div class="w-8 h-8 mr-2 flex justify-center items-center  border border-transparent rounded-full outline-0 bg-blue-600">
-                            <span class="number">3</span>
+                        <div class="w-8 h-8  mr-1 flex justify-center items-center  border border-transparent rounded-full outline-0 bg-blue-600 sm:w-9 sm:h-9">
+                            <span class="text-white text-sm font-bold">3</span>
                         </div>
                         <a href="#" class="font-regular text-base text-black">Checkout</a>
                     </li>
@@ -55,11 +54,11 @@
 
 </header>
 <main class="pt-10 pb-16 bg-(--main-bg-color)">
-    <div class=" px-3 flex flex-col lg:flex-row lg:justify-between lg:items-end  lg:mx-auto 2xl:w-7xl">
-        <div class="flex flex-col 2xl:ml-20">
+    <div class=" px-3 flex  flex-col  lg:flex-row lg:justify-between lg:items-end  lg:mx-auto 2xl:w-7xl">
+        <div class="flex flex-col lg:max-w-4xl 2xl:ml-20">
             <h1 class="font-bold text-[32px] text-black ">Checkout</h1>
             <h2 class="my-7 font-bold text-xl text-black leading-0">Shipping information</h2>
-            <form action="" class="w-full mb-10  grid grid-cols-3 gap-x-5 gap-y-6 md:w-2xl lg:w-lg xl:w-2xl lg:mb-0 ">
+            <form action="" class="w-full mb-10  grid grid-cols-3 gap-x-5 gap-y-6 lg:max-w-[80%] xl:max-w-[90% lg:mb-0">
                 <div class="col-span-3">
                     <label for="name"
                            class="relative inline-block mb-2 font-regular text-base text-black after:content-['_\00A0*'] after:text-red-500 after:absolute">Full
@@ -156,10 +155,11 @@
         </div>
     </div>
 </main>
-<footer class="py-5 md:py-4">
-    <div class="flex items-center justify-center text-xs text-neutral-500 font-medium">© 2025 Furniture, Inc. All
+<footer class="h-22  flex items-center justify-center">
+    <div class="text-xs text-neutral-500 font-medium">© 2025 Furniture, Inc. All
         Rights Reserved
     </div>
+
 </footer>
 
 </body>

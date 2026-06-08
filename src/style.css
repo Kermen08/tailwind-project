@@ -23,14 +23,7 @@
     src: url("./fonts/HelveticaNeue-Roman.otf");
     font-weight: 400;
 }
-@layer utilities {
-    .number {
-        font-size: 14px;
-        color: white;
-        font-weight: bold;
-    }
 
-}
 
 
 
